@@ -44,7 +44,7 @@ Write-Host -ForegroundColor Red "██╔══██╗██╔══██�
 Write-Host -ForegroundColor Red "╚█████╔╝╚█████╔╝╚█████╔╝"
 Write-Host ""
 Write-Host -ForegroundColor Blue "   Made By PureIntent (Shitty ScreenSharer) For Red Lotus ScreenSharing and DFIR - " -NoNewLine
-Write-Host -ForegroundColor Red "discord.gg/redlotus"
+Write-Host -ForegroundColor Red "discord.gg/666"
 Write-Host ""
 
 function Test-Admin {;$currentUser = New-Object Security.Principal.WindowsPrincipal $([Security.Principal.WindowsIdentity]::GetCurrent());$currentUser.IsInRole([Security.Principal.WindowsBuiltinRole]::Administrator);}
@@ -126,4 +126,5 @@ $Bam | Out-GridView -PassThru -Title "BAM key entries $($Bam.count)  - User Time
 $sw.stop()
 $t = $sw.Elapsed.TotalMinutes
 Write-Host ""
+
 Write-Host "Elapsed Time $t Minutes" -ForegroundColor Yellow
