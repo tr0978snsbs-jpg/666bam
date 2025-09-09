@@ -43,7 +43,7 @@ Write-Host -ForegroundColor Red "██████╗░██████╗�
 Write-Host -ForegroundColor Red "██╔══██╗██╔══██╗██╔══██╗"
 Write-Host -ForegroundColor Red "╚█████╔╝╚█████╔╝╚█████╔╝"
 Write-Host ""
-Write-Host -ForegroundColor Blue "   Made By PureIntent (Shitty ScreenSharer)  666 ScreenSharing and DFIR - " -NoNewLine
+Write-Host -ForegroundColor Blue "   Made By PureIntent (Shitty ScreenSharer)  666 MC  ScreenSharing and DFIR - " -NoNewLine
 Write-Host -ForegroundColor Red "discord.gg/666"
 Write-Host ""
 
@@ -128,6 +128,7 @@ $t = $sw.Elapsed.TotalMinutes
 Write-Host ""
 
 Write-Host "Elapsed Time $t Minutes" -ForegroundColor Yellow
+
 
 
 
